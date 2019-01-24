@@ -17,7 +17,7 @@ var server = http.createServer(function(request, response){
   var query = parsedUrl.query
   var method = request.method
 
-  /******** 从这里开始看，上面不要看 ************/
+  /********** *************/
 
   console.log('HTTP 路径为\n' + path)
   if(path === '/'){
@@ -42,7 +42,7 @@ var server = http.createServer(function(request, response){
     response.end()
   }
 
-  /******** 代码结束，下面不要看 ************/
+  /*********** ************/
 })
 
 server.listen(port)
